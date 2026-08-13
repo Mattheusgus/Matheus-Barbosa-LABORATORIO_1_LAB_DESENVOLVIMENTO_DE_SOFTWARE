@@ -62,6 +62,6 @@ Siga as etapas abaixo para rodar o projeto localmente em sua máquina:
    O site estará rodando em `http://localhost:[porta]`.
 
 ## 🧑‍💻 Autor
-* **[Matheus Barbosa]** - Estudante de Engenharia de Software na PUC Minas
+* **Matheus Barbosa** - Estudante de Engenharia de Software na PUC Minas
 * [LinkedIn](#)
 * [GitHub](https://github.com/seu-usuario)
