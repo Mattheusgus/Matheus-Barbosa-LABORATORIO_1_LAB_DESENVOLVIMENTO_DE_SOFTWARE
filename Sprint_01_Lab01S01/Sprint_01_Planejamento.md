@@ -8,9 +8,9 @@ Planejamento inicial, criação de repositório, wireframes e protótipo inicial
 - [x] Criação do repositório GitHub com README inicial
    ![Link para o Print](./evidencias/Evidence-GithubCreation.png)
 - [x] Wireframes das páginas no figma (média fidelidade)
-  ![Link para o Figma/Print](./evidencias/Evidence-FigmaCreation.pdf)
+  ![Link para o Figma/Print](./evidencias/Evidence-FigmaCreation.png)
 - [x] Protótipo inicial do front-end (HTML/CSS/JS ou frameworks modernos)
- ![Link para o código/Print](./evidencias/prototipo_inicial.png)
+  ![Link para o código/Print](./evidencias/prototipo_inicial.png)
 - [x] Implementação da navegação e do layout principal (cabeçalho, rodapé e conteúdo)
   ![Link para gravação/Print](./evidencias/navegacao_layout.mp4)
 
