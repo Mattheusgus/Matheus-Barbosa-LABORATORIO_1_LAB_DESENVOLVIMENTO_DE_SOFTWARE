@@ -18,9 +18,8 @@ O site está hospedado e pode ser acessado no seguinte link:
 * `[Nome da Dependência 2]` - *Breve descrição*
 
 ## Protótipos
-* **Link para o Figma:** [Inserir Link do Figma Aqui](#)
 * **Preview do Layout:**
-  *(Adicionar  imagens/prints dos wireframes e protótipos iniciais do site)*
+![Figma](/Sprint_01_Lab01S01/evidencias/Evidence-FigmaCreation.png)
 
 ## 📂 Estrutura de Diretórios
 A estrutura do projeto está organizada da seguinte forma:
