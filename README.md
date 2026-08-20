@@ -5,12 +5,12 @@ Website de portfólio profissional desenvolvido para a disciplina de Projeto de 
 
 ## Link de Acesso
 O site está hospedado e pode ser acessado no seguinte link:
-**[Inserir Link do Site Publicado](#)**
+**[Link do Site Publicado](#)**
 
 ## Tecnologias Utilizadas
-* **Front-end:** [Ex: React, Vue, Next.js ou HTML/CSS/JS puro]
-* **Estilização/Componentes:** [Ex: Tailwind CSS, Material-UI, Mantine]
-* **Hospedagem em Nuvem:** [Ex: Vercel, Render, Heroku, Fly.io]
+* **Front-end:** React.
+* **Estilização/Componentes:** Tailwind CSS e Material-UI.
+* **Hospedagem em Nuvem:** Render.
 * **Design/Prototipação:** Figma
 
 ## 📦 Dependências e Bibliotecas
