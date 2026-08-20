@@ -61,7 +61,12 @@ Siga as etapas abaixo para rodar o projeto localmente em sua máquina:
 5. **Acesse no navegador:**
    O site estará rodando em `http://localhost:[porta]`.
 
-## 🧑‍💻 Autor
-* **Matheus Barbosa** - Estudante de Engenharia de Software na PUC Minas
+## 🧑‍💻 AutorES
+* **Matheus Barbosa** 
+* **Cleverson Rosa** 
+* **Rafael Lopes** 
+* **Caio Ferreira** 
+
+## 🔗 Redes 
 * [LinkedIn](#)
 * [GitHub](https://github.com/seu-usuario)
