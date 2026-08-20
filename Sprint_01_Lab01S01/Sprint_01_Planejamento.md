@@ -6,7 +6,7 @@ Planejamento inicial, criação de repositório, wireframes e protótipo inicial
 ## Tarefas e Evidências
 
 - [x] Criação do repositório GitHub com README inicial
-  - 📄 **Evidência:** [Link para o Print](./evidencias/Evidence-GithubCreation.png)
+  - ![Link para o Print](./evidencias/Evidence-GithubCreation.png)
 - [x] Wireframes das páginas no figma (média fidelidade)
   - 📄 **Evidência:** [Link para o Figma/Print](./evidencias/Evidence-FigmaCreation.pdf)
 - [ ] Protótipo inicial do front-end (HTML/CSS/JS ou frameworks modernos)
