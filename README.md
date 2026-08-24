@@ -83,6 +83,7 @@ Siga as etapas abaixo para rodar o projeto localmente em sua máquina.
    ```
 5. **Acesse no navegador:**
    O site estará rodando em `http://localhost:5173`.
+> ⚠️ Nota: Caso a porta 5173 já esteja em uso por outro processo, o Vite automaticamente iniciará o servidor na próxima porta disponível (ex.: 5174, 5175...). Verifique sempre a URL exata exibida no terminal ao rodar npm run dev.
 
 ### 📜 Scripts Disponíveis
 | Comando | Descrição |
