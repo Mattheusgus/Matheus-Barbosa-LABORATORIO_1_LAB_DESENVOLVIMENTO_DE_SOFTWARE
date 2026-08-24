@@ -6,13 +6,13 @@ Implementação das páginas principais do portfólio (Sobre Mim, Projetos, Expe
 ## Tarefas e Evidências
 
 - [x] Página "Sobre Mim" com versões em português e inglês
-  - 📄 **Evidência:** [Print da página Sobre Mim](./evidencias/sobre_mim.png)
+  ![Print da página Sobre Mim](./evidencias/sobre_mim.png)
 - [x] Página "Projetos" com timeline dinâmica
-  - 📄 **Evidência:** [Print da página Projetos](./evidencias/projetos.png)
+  ![Print da página Projetos](./evidencias/projetos.png)
 - [x] Página "Experiências" com dados organizados
-  - 📄 **Evidência:** [Print da página Experiências](./evidencias/experiencias.png)
+  ![Print da página Experiências](./evidencias/experiencias.png)
 - [x] Página "Contato" com ícones e formulário funcional (ex: envio de e-mail)
-  - 📄 **Evidência:** [Print do Formulário de Contato](./evidencias/contato.png)
+  ![Print do Formulário de Contato](./evidencias/contato.png)
 - [x] Validações básicas e responsividade
   - 📄 **Evidência:** [Testes de Responsividade](./evidencias/teste.mp4)
 
