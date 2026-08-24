@@ -45,8 +45,7 @@ export const profile = {
   hero: {
     heroMedia: 'photo', // 'photo' | 'code'
     // ⚠️ URL do LinkedIn pode expirar — baixe e use "/profile/matheus.jpg"
-    photo:
-      'https://media.licdn.com/dms/image/v2/D4D03AQFyJW6SLvu1vQ/profile-displayphoto-scale_400_400/B4DZwp9BngGQAo-/0/1770230391028?e=1788998400&v=beta&t=Son9Qfp4fJYfa6w7GVI2Z8l03oexITbaaj6HRwBH6w4',
+    photo: '/profile/matheus.png',
     favicon: null,
     cta: {
       primary: { pt: 'Ver Projetos', en: 'View Projects' },
@@ -67,9 +66,8 @@ export const profile = {
         en: 'Test data automation for complex MES (JEMSMM) features such as OBA Mendix. Refactored with SOLID principles and an API client layer (ERP, core and external).',
       },
       tags: ['Playwright', 'TypeScript', 'SOLID', 'API'],
-      repo: 'https://github.com/Mattheusgus',
       demo: '',
-      image: '',
+      image: '/profile/project1.png',
       preview: 'from-cyan-500/20 via-fuchsia-500/10 to-transparent',
     },
     {
@@ -81,9 +79,8 @@ export const profile = {
         en: 'Automated tests for factory-floor web applications (MES), covering functional, regression and API testing to ensure delivery reliability.',
       },
       tags: ['Cypress', 'JavaScript', 'API Testing', 'CI'],
-      repo: 'https://github.com/Mattheusgus',
       demo: '',
-      image: '',
+      image: '/profile/project2.png',
       preview: 'from-teal-500/20 via-cyan-500/10 to-transparent',
     },
     {
@@ -95,9 +92,8 @@ export const profile = {
         en: 'Improvement and rollout of the QA standardization process, SQA team support, test case creation with traceability to acceptance criteria and technical mentoring.',
       },
       tags: ['Test Case', 'SQL', 'Agile', 'Mentoring'],
-      repo: 'https://github.com/Mattheusgus',
       demo: '',
-      image: '',
+      image: '/profile/project3.png',
       preview: 'from-fuchsia-500/25 via-purple-500/10 to-transparent',
     },
     {
@@ -111,7 +107,7 @@ export const profile = {
       tags: ['React', 'Tailwind', 'Material UI', 'Vite'],
       repo: 'https://github.com/Mattheusgus/Matheus-Barbosa-LABORATORIO_1_LAB_DESENVOLVIMENTO_DE_SOFTWARE',
       demo: '',
-      image: '',
+      image: '/profile/project4.png',
       preview: 'from-cyan-500/20 via-blue-500/10 to-transparent',
     },
   ],
