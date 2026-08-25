@@ -11,7 +11,7 @@ O site é composto pelas seguintes seções:
 
 ## Link de Acesso
 O site está hospedado e pode ser acessado no seguinte link:
-**[Link do Site Publicado](#)**
+**[Link do Site Publicado](https://matheus-barbosa-laboratorio-1-lab-desenvolvimento-q3yljss2q.vercel.app/)**
 
 ## 🛠️ Tecnologias Utilizadas
 | Categoria | Tecnologia |
