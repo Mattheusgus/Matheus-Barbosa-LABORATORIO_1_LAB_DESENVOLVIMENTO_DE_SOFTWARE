@@ -21,25 +21,25 @@ export const profile = {
    * 1) IDENTIDADE
    * ------------------------------------------------------------------------ */
   identity: {
-    name: 'Seu Nome',               // Nome completo (usado no rodapé, alt de imagem)
-    firstName: 'Nome',              // Primeiro nome (saudação)
-    logo: 'seunome.dev',            // Texto do logo no cabeçalho: < seunome.dev />
+    name: 'Kaio Ferreira Soares',               // Nome completo (usado no rodapé, alt de imagem)
+    firstName: 'Kaio',              // Primeiro nome (saudação)
+    logo: 'kaio.dev',            // Texto do logo no cabeçalho: < seunome.dev />
     role: {
-      pt: 'Sua Profissão',
-      en: 'Your Role',
+      pt: 'Desenvolvedor Full-Stack',
+      en: 'Full-Stack Developer',
     },
     greeting: {
-      pt: 'OLÁ, EU SOU O SEU NOME',
-      en: 'HELLO, I AM YOUR NAME',
+      pt: 'OLÁ, EU SOU O KAIO',
+      en: 'HELLO, I AM KAIO',
     },
     bio: {
-      pt: 'Escreva aqui uma apresentação sobre você: sua área de atuação, principais habilidades e o que você faz de melhor.',
-      en: 'Write a short introduction about yourself here: your field, main skills and what you do best.',
+      pt: 'Estudante de Engenharia de Software | Jovem Aprendiz de TI | Desenvolvedor Full Stack em formação',
+      en: 'Software Engineering Student | Junior IT Apprentice | Full Stack Developer in training',
     },
     // Texto secundário (aparece menor, abaixo da bio principal)
     bioSecondary: {
-      pt: 'Uma frase complementar sobre seus valores, foco ou objetivos profissionais.',
-      en: 'A complementary sentence about your values, focus or professional goals.',
+      pt: 'Estou no início da minha jornada acadêmica, cursando Engenharia de Software na PUC Minas, e já estou inserido no mercado de trabalho como Jovem Aprendiz na área de TI na empresa Minha Casa Solar. Desde o primeiro semestre, venho me dedicando a construir uma base sólida em programação, estruturas de dados e desenvolvimento de sistemas. Meu objetivo é aplicar esse conhecimento teórico em projetos reais e contribuir para a criação de soluções tecnológicas inovadoras. Busco oportunidades que me desafiem e possibilitem meu crescimento contínuo.',
+      en: 'I am at the beginning of my academic journey, studying Software Engineering at PUC Minas, and I am already entering the job market as a Junior IT Apprentice at Minha Casa Solar. Since the first semester, I have been dedicated to building a solid foundation in programming, data structures, and system development. My goal is to apply this theoretical knowledge to real projects and contribute to the creation of innovative technological solutions. I seek opportunities that challenge me and allow for my continuous growth.',
     },
   },
 
@@ -50,7 +50,7 @@ export const profile = {
    * ------------------------------------------------------------------------ */
   hero: {
     heroMedia: 'photo', // 'photo' | 'code'
-    photo: '/profile/avatar-placeholder.svg', // troque pela sua foto em public/profile/
+    photo: '/profile/perfil.jfif', // troque pela sua foto em public/profile/
     // Favicon do navegador (opcional). Deixe null para usar o padrão < / >
     favicon: null,
     cta: {
@@ -67,60 +67,32 @@ export const profile = {
   projects: [
     {
       id: 'projeto-1',
-      year: '2024',
-      title: 'Nome do Projeto 1',
+      year: '2026',
+      title: 'Sistema de entrega de drones',
       description: {
-        pt: 'Descreva aqui o objetivo do projeto, o problema que ele resolve e os principais resultados alcançados.',
-        en: 'Describe the project goal here, the problem it solves and the main results achieved.',
+        pt: 'Sistema de gestão de fretes para uma operação logística com drones. A aplicação permite cadastrar hangares, modelos, drones e entregas, preparar despachos, acompanhar rotas em um mapa cartesiano e cadastrar áreas que devem ser evitadas.',
+        en: 'System for managing freight for drone logistics. The application allows registering hangars, models, drones, and deliveries, preparing shipments, tracking routes on a Cartesian map, and registering areas to be avoided.',
       },
-      tags: ['React', 'Node.js', 'Tailwind', 'API'],
-      repo: 'https://github.com/seu-usuario/projeto-1',
+      tags: ['React', 'Spring Boot', 'Tailwind', 'API', 'Mongo db'],
+      repo: 'https://github.com/KaioFerreira13/Teste-pr-tico-dti-digital-Kaio-Ferreira.git',
       demo: '',
       image: '', // ex.: '/profile/projeto1.png' (deixe vazio p/ usar o gradiente)
       preview: 'from-cyan-500/20 via-fuchsia-500/10 to-transparent',
     },
     {
       id: 'projeto-2',
-      year: '2023',
-      title: 'Nome do Projeto 2',
+      year: '2026',
+      title: 'Cadastro de pets',
       description: {
-        pt: 'Descreva aqui o objetivo do projeto, o problema que ele resolve e os principais resultados alcançados.',
-        en: 'Describe the project goal here, the problem it solves and the main results achieved.',
+        pt: 'Aplicação web para gerenciar hospedagens de cães e gatos. O sistema permite listar, cadastrar, editar e excluir hospedagens, além de calcular a quantidade atual e prevista de diárias.',
+        en: 'Web application to manage dog and cat boarding. The system allows listing, registering, editing and deleting bookings, as well as calculating the current and projected number of days.',
       },
-      tags: ['TypeScript', 'Next.js', 'PostgreSQL'],
-      repo: 'https://github.com/seu-usuario/projeto-2',
+      tags: ['Flutter', 'Dart', 'Node.js'],
+      repo: 'https://github.com/KaioFerreira13/teste-pluritech-kaio-ferreira.git',
       demo: '',
       image: '',
       preview: 'from-fuchsia-500/25 via-purple-500/10 to-transparent',
-    },
-    {
-      id: 'projeto-3',
-      year: '2022',
-      title: 'Nome do Projeto 3',
-      description: {
-        pt: 'Descreva aqui o objetivo do projeto, o problema que ele resolve e os principais resultados alcançados.',
-        en: 'Describe the project goal here, the problem it solves and the main results achieved.',
-      },
-      tags: ['JavaScript', 'Docker', 'MongoDB'],
-      repo: 'https://github.com/seu-usuario/projeto-3',
-      demo: '',
-      image: '',
-      preview: 'from-teal-500/20 via-cyan-500/10 to-transparent',
-    },
-    {
-      id: 'projeto-4',
-      year: '2021',
-      title: 'Nome do Projeto 4',
-      description: {
-        pt: 'Descreva aqui o objetivo do projeto, o problema que ele resolve e os principais resultados alcançados.',
-        en: 'Describe the project goal here, the problem it solves and the main results achieved.',
-      },
-      tags: ['React', 'GraphQL', 'Jest'],
-      repo: 'https://github.com/seu-usuario/projeto-4',
-      demo: '',
-      image: '',
-      preview: 'from-cyan-500/20 via-blue-500/10 to-transparent',
-    },
+    }
   ],
 
   /* ---------------------------------------------------------------------------
@@ -130,36 +102,14 @@ export const profile = {
     {
       id: 'exp-1',
       initials: 'E1',
-      role: { pt: 'Seu Cargo', en: 'Your Role' },
-      company: 'Nome da Empresa',
-      period: { pt: 'Mês Ano – Atual', en: 'Month Year – Present' },
+      role: { pt: 'Jovem Aprendiz em TI', en: 'IT Apprentice' },
+      company: 'Minha Casa Solar',
+      period: { pt: 'Setembro de 2025 – Agosto de 2026', en: 'September 2025 – August 2026' },
       description: {
-        pt: 'Descreva suas principais responsabilidades, tecnologias utilizadas e resultados alcançados nesta posição.',
-        en: 'Describe your main responsibilities, technologies used and results achieved in this position.',
+        pt: 'Desenvolvimento de soluções internas para otimização de processos corporativos, participação ativa em sprints ágeis e contribuição para a melhoria contínua da infraestrutura de TI.',
+        en: 'Development of internal solutions to optimize business processes, active participation in agile sprints, and contribution to the continuous improvement of the IT infrastructure.',
       },
-    },
-    {
-      id: 'exp-2',
-      initials: 'E2',
-      role: { pt: 'Seu Cargo', en: 'Your Role' },
-      company: 'Nome da Empresa',
-      period: { pt: 'Mês Ano – Mês Ano', en: 'Month Year – Month Year' },
-      description: {
-        pt: 'Descreva suas principais responsabilidades, tecnologias utilizadas e resultados alcançados nesta posição.',
-        en: 'Describe your main responsibilities, technologies used and results achieved in this position.',
-      },
-    },
-    {
-      id: 'exp-3',
-      initials: 'E3',
-      role: { pt: 'Seu Cargo', en: 'Your Role' },
-      company: 'Nome da Empresa',
-      period: { pt: 'Mês Ano – Mês Ano', en: 'Month Year – Month Year' },
-      description: {
-        pt: 'Descreva suas principais responsabilidades, tecnologias utilizadas e resultados alcançados nesta posição.',
-        en: 'Describe your main responsibilities, technologies used and results achieved in this position.',
-      },
-    },
+    }
   ],
 
   /* ---------------------------------------------------------------------------
@@ -167,10 +117,10 @@ export const profile = {
    *    icon: 'email' | 'whatsapp' | 'linkedin' | 'github' | 'phone' | 'site'
    * ------------------------------------------------------------------------ */
   contact: [
-    { id: 'email',    label: 'E-mail',   icon: 'email',    value: 'seu-email@example.com',   href: 'mailto:seu-email@example.com' },
-    { id: 'whatsapp', label: 'WhatsApp', icon: 'whatsapp', value: '+55 (00) 00000-0000',     href: 'https://wa.me/5500000000000' },
-    { id: 'linkedin', label: 'LinkedIn', icon: 'linkedin', value: 'linkedin.com/in/seu-perfil', href: 'https://linkedin.com/in/seu-perfil' },
-    { id: 'github',   label: 'GitHub',   icon: 'github',   value: 'github.com/seu-usuario',   href: 'https://github.com/seu-usuario' },
+    { id: 'email',    label: 'E-mail',   icon: 'email',    value: 'kaioferreirasoares78@gmail.com',   href: 'mailto:kaioferreirasoares78@gmail.com' },
+    { id: 'whatsapp', label: 'WhatsApp', icon: 'whatsapp', value: '+55 (31) 99916-7434',     href: 'https://wa.me/5531999167434' },
+    { id: 'linkedin', label: 'LinkedIn', icon: 'linkedin', value: 'linkedin.com/in/kaio-ferreira-290716365/', href: 'https://www.linkedin.com/in/kaio-ferreira-290716365/' },
+    { id: 'github',   label: 'GitHub',   icon: 'github',   value: 'github.com/KaioFerreira13',   href: 'https://github.com/KaioFerreira13' },
   ],
 
   /* ---------------------------------------------------------------------------
@@ -178,9 +128,8 @@ export const profile = {
    *    icon: 'github' | 'linkedin' | 'twitter' | 'instagram' | 'site'
    * ------------------------------------------------------------------------ */
   socials: [
-    { icon: 'github',   href: 'https://github.com/seu-usuario',      label: 'GitHub' },
-    { icon: 'linkedin', href: 'https://linkedin.com/in/seu-perfil',  label: 'LinkedIn' },
-    { icon: 'twitter',  href: 'https://twitter.com/seu-usuario',     label: 'Twitter' },
+    { icon: 'github',   href: 'https://github.com/KaioFerreira13',      label: 'GitHub' },
+    { icon: 'linkedin', href: 'https://www.linkedin.com/in/kaio-ferreira-290716365/',  label: 'LinkedIn' },
   ],
 
   /* ---------------------------------------------------------------------------
