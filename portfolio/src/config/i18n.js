@@ -42,8 +42,8 @@ export const sectionTitles = {
       },
       send: { pt: 'Enviar Mensagem', en: 'Send Message' },
       success: {
-        pt: 'Mensagem pronta para envio! (demo)',
-        en: 'Message ready to send! (demo)',
+        pt: 'Mensagem pronta para envio!',
+        en: 'Message ready to send!',
       },
     },
   },
