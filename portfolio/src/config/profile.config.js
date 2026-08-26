@@ -2,18 +2,14 @@
  *  ✨ ARQUIVO DE CONFIGURAÇÃO DO PORTFÓLIO — EDITE APENAS ESTE ARQUIVO ✨
  * =============================================================================
  *
- *  Cada membro do grupo deve criar a sua própria versão do portfólio
- *  alterando SOMENTE os valores abaixo. Nenhum componente precisa ser tocado.
- *
  *  📸 FOTOS:
  *    - Coloque suas imagens na pasta:  public/profile/
- *    - Referencie começando com "/profile/..."  (ex.: "/profile/minha-foto.jpg")
- *    - Já existe um placeholder pronto: "/profile/avatar-placeholder.svg"
+ *    - Referencie começando com "/profile/..."  (ex.: "/profile/rafael.jpg")
  *
  *  🌐 IDIOMAS:
  *    - Campos com { pt: "...", en: "..." } são bilíngues (toggle PT/EN no topo).
- *    - Se não quiser tradução, basta repetir o mesmo texto nos dois.
  *
+ *  ⚠️  Itens marcados com  // TODO  ainda precisam dos seus dados.
  * ========================================================================== */
 
 export const profile = {
@@ -21,37 +17,33 @@ export const profile = {
    * 1) IDENTIDADE
    * ------------------------------------------------------------------------ */
   identity: {
-    name: 'Seu Nome',               // Nome completo (usado no rodapé, alt de imagem)
-    firstName: 'Nome',              // Primeiro nome (saudação)
-    logo: 'seunome.dev',            // Texto do logo no cabeçalho: < seunome.dev />
+    name: 'Rafael Lopes de Souza da Fonseca',
+    firstName: 'Rafael',
+    logo: 'rafaelfonseca.cloud',
     role: {
-      pt: 'Sua Profissão',
-      en: 'Your Role',
+      pt: 'Arquiteto de Soluções em Nuvem | AWS Certified',
+      en: 'Cloud Solutions Architect | AWS Certified',
     },
     greeting: {
-      pt: 'OLÁ, EU SOU O SEU NOME',
-      en: 'HELLO, I AM YOUR NAME',
+      pt: 'OLÁ, EU SOU O RAFAEL FONSECA',
+      en: 'HELLO, I AM RAFAEL FONSECA',
     },
     bio: {
-      pt: 'Escreva aqui uma apresentação sobre você: sua área de atuação, principais habilidades e o que você faz de melhor.',
-      en: 'Write a short introduction about yourself here: your field, main skills and what you do best.',
+      pt: 'Trabalho com arquitetura e operação de ambientes na AWS. Sou certificado em três trilhas da AWS — Cloud Practitioner, Solutions Architect – Associate e CloudOps Engineer – Associate — e atuo no dia a dia com sustentação de infraestrutura e FinOps, identificando oportunidades de melhoria em arquitetura, custo e confiabilidade nos ambientes dos clientes.',
+      en: 'I work with cloud architecture and operations on AWS. I hold three AWS certifications — Cloud Practitioner, Solutions Architect – Associate and CloudOps Engineer – Associate — and my daily work spans infrastructure support and FinOps, finding opportunities to improve architecture, cost and reliability across client environments.',
     },
-    // Texto secundário (aparece menor, abaixo da bio principal)
     bioSecondary: {
-      pt: 'Uma frase complementar sobre seus valores, foco ou objetivos profissionais.',
-      en: 'A complementary sentence about your values, focus or professional goals.',
+      pt: 'Acredito que uma boa arquitetura se prova na operação: ambiente bem desenhado é aquele que custa menos, quebra menos e é fácil de sustentar.',
+      en: 'I believe good architecture proves itself in operations: a well-designed environment costs less, breaks less and is easy to maintain.',
     },
   },
 
   /* ---------------------------------------------------------------------------
    * 2) FOTO / MÍDIA DO HERO
-   *    heroMedia: 'code'  -> mostra a janela de código (padrão do Figma)
-   *    heroMedia: 'photo' -> mostra a sua foto de perfil
    * ------------------------------------------------------------------------ */
   hero: {
     heroMedia: 'photo', // 'photo' | 'code'
-    photo: '/profile/avatar-placeholder.svg', // troque pela sua foto em public/profile/
-    // Favicon do navegador (opcional). Deixe null para usar o padrão < / >
+    photo: '/profile/rafael.jpg', // TODO: salve sua foto em public/profile/ com este nome
     favicon: null,
     cta: {
       primary: { pt: 'Ver Projetos', en: 'View Projects' },
@@ -61,33 +53,32 @@ export const profile = {
 
   /* ---------------------------------------------------------------------------
    * 3) PROJETOS EM DESTAQUE
-   *    - preview: gradiente Tailwind do cartão (ou use "image" com uma foto).
-   *    - image (opcional): caminho em /profile/... para usar imagem real.
+   *    TODO: substitua pelos seus projetos reais (título, ano, repo, descrição).
    * ------------------------------------------------------------------------ */
   projects: [
     {
       id: 'projeto-1',
-      year: '2024',
+      year: '2025',
       title: 'Nome do Projeto 1',
       description: {
         pt: 'Descreva aqui o objetivo do projeto, o problema que ele resolve e os principais resultados alcançados.',
         en: 'Describe the project goal here, the problem it solves and the main results achieved.',
       },
-      tags: ['React', 'Node.js', 'Tailwind', 'API'],
+      tags: ['AWS', 'Terraform', 'CloudFormation', 'IAM'],
       repo: 'https://github.com/seu-usuario/projeto-1',
       demo: '',
-      image: '', // ex.: '/profile/projeto1.png' (deixe vazio p/ usar o gradiente)
+      image: '',
       preview: 'from-cyan-500/20 via-fuchsia-500/10 to-transparent',
     },
     {
       id: 'projeto-2',
-      year: '2023',
+      year: '2025',
       title: 'Nome do Projeto 2',
       description: {
         pt: 'Descreva aqui o objetivo do projeto, o problema que ele resolve e os principais resultados alcançados.',
         en: 'Describe the project goal here, the problem it solves and the main results achieved.',
       },
-      tags: ['TypeScript', 'Next.js', 'PostgreSQL'],
+      tags: ['FinOps', 'Cost Explorer', 'CloudWatch'],
       repo: 'https://github.com/seu-usuario/projeto-2',
       demo: '',
       image: '',
@@ -95,13 +86,13 @@ export const profile = {
     },
     {
       id: 'projeto-3',
-      year: '2022',
+      year: '2024',
       title: 'Nome do Projeto 3',
       description: {
         pt: 'Descreva aqui o objetivo do projeto, o problema que ele resolve e os principais resultados alcançados.',
         en: 'Describe the project goal here, the problem it solves and the main results achieved.',
       },
-      tags: ['JavaScript', 'Docker', 'MongoDB'],
+      tags: ['EC2', 'VPC', 'Auto Scaling', 'Linux'],
       repo: 'https://github.com/seu-usuario/projeto-3',
       demo: '',
       image: '',
@@ -109,13 +100,13 @@ export const profile = {
     },
     {
       id: 'projeto-4',
-      year: '2021',
+      year: '2024',
       title: 'Nome do Projeto 4',
       description: {
         pt: 'Descreva aqui o objetivo do projeto, o problema que ele resolve e os principais resultados alcançados.',
         en: 'Describe the project goal here, the problem it solves and the main results achieved.',
       },
-      tags: ['React', 'GraphQL', 'Jest'],
+      tags: ['Lambda', 'Python', 'S3', 'CI/CD'],
       repo: 'https://github.com/seu-usuario/projeto-4',
       demo: '',
       image: '',
@@ -129,35 +120,13 @@ export const profile = {
   experiences: [
     {
       id: 'exp-1',
-      initials: 'E1',
-      role: { pt: 'Seu Cargo', en: 'Your Role' },
-      company: 'Nome da Empresa',
-      period: { pt: 'Mês Ano – Atual', en: 'Month Year – Present' },
+      initials: 'F1',
+      role: { pt: 'Estagiário de Operações em Nuvem', en: 'Cloud Operations Intern' },
+      company: 'Force One IT',
+      period: { pt: 'Janeiro 2026 – Presente', en: 'January 2026 – Present' }, // TODO: informe o mês/ano de início
       description: {
-        pt: 'Descreva suas principais responsabilidades, tecnologias utilizadas e resultados alcançados nesta posição.',
-        en: 'Describe your main responsibilities, technologies used and results achieved in this position.',
-      },
-    },
-    {
-      id: 'exp-2',
-      initials: 'E2',
-      role: { pt: 'Seu Cargo', en: 'Your Role' },
-      company: 'Nome da Empresa',
-      period: { pt: 'Mês Ano – Mês Ano', en: 'Month Year – Month Year' },
-      description: {
-        pt: 'Descreva suas principais responsabilidades, tecnologias utilizadas e resultados alcançados nesta posição.',
-        en: 'Describe your main responsibilities, technologies used and results achieved in this position.',
-      },
-    },
-    {
-      id: 'exp-3',
-      initials: 'E3',
-      role: { pt: 'Seu Cargo', en: 'Your Role' },
-      company: 'Nome da Empresa',
-      period: { pt: 'Mês Ano – Mês Ano', en: 'Month Year – Month Year' },
-      description: {
-        pt: 'Descreva suas principais responsabilidades, tecnologias utilizadas e resultados alcançados nesta posição.',
-        en: 'Describe your main responsibilities, technologies used and results achieved in this position.',
+        pt: 'Atuo na área de operação, dando sustentação a ambientes AWS de múltiplos clientes e participando das iniciativas de FinOps. O trabalho envolve acompanhar o consumo e identificar oportunidades de redução de custo, além de propor melhorias de arquitetura e de operação que tornem os ambientes mais eficientes, estáveis e fáceis de manter.',
+        en: 'I work in the operations team, supporting AWS environments for multiple clients and taking part in FinOps initiatives. The role involves tracking usage and identifying cost-reduction opportunities, as well as proposing architecture and operational improvements that make environments more efficient, stable and easier to maintain.',
       },
     },
   ],
@@ -167,20 +136,19 @@ export const profile = {
    *    icon: 'email' | 'whatsapp' | 'linkedin' | 'github' | 'phone' | 'site'
    * ------------------------------------------------------------------------ */
   contact: [
-    { id: 'email',    label: 'E-mail',   icon: 'email',    value: 'seu-email@example.com',   href: 'mailto:seu-email@example.com' },
-    { id: 'whatsapp', label: 'WhatsApp', icon: 'whatsapp', value: '+55 (00) 00000-0000',     href: 'https://wa.me/5500000000000' },
-    { id: 'linkedin', label: 'LinkedIn', icon: 'linkedin', value: 'linkedin.com/in/seu-perfil', href: 'https://linkedin.com/in/seu-perfil' },
-    { id: 'github',   label: 'GitHub',   icon: 'github',   value: 'github.com/seu-usuario',   href: 'https://github.com/seu-usuario' },
+    { id: 'email',    label: 'E-mail',   icon: 'email',    value: 'rafaellopessouzafonseca@gmail.com', href: 'mailto:rafaellopessouzafonseca@gmail.com' },
+    // TODO: preencha ou remova os cards abaixo
+    { id: 'linkedin', label: 'LinkedIn', icon: 'linkedin', value: 'linkedin.com/in/rafael-lopes-souza-da-fonseca', href: 'https://www.linkedin.com/in/rafael-lopes-souza-da-fonseca-046850365?utm_source=share_via&utm_content=profile&utm_medium=member_ios' },
+    { id: 'github',   label: 'GitHub',   icon: 'github',   value: 'github.com/sRafael-Fonseca1510',   href: 'https://github.com/Rafael-Fonseca1510' },
   ],
 
   /* ---------------------------------------------------------------------------
    * 6) REDES SOCIAIS (ícones do rodapé)
-   *    icon: 'github' | 'linkedin' | 'twitter' | 'instagram' | 'site'
    * ------------------------------------------------------------------------ */
   socials: [
-    { icon: 'github',   href: 'https://github.com/seu-usuario',      label: 'GitHub' },
-    { icon: 'linkedin', href: 'https://linkedin.com/in/seu-perfil',  label: 'LinkedIn' },
-    { icon: 'twitter',  href: 'https://twitter.com/seu-usuario',     label: 'Twitter' },
+    // TODO: preencha as URLs reais
+    { icon: 'github',   href: 'https://github.com/seu-usuario',     label: 'GitHub' },
+    { icon: 'linkedin', href: 'https://linkedin.com/in/seu-perfil', label: 'LinkedIn' },
   ],
 
   /* ---------------------------------------------------------------------------
@@ -188,8 +156,8 @@ export const profile = {
    * ------------------------------------------------------------------------ */
   contactSection: {
     lead: {
-      pt: 'Fique à vontade para entrar em contato se você tiver uma proposta de projeto, se quiser discutir sobre tecnologia, ou simplesmente dar um alô.',
-      en: 'Feel free to reach out if you have a project proposal, want to discuss technology, or simply say hi.',
+      pt: 'Fique à vontade para entrar em contato se quiser falar sobre arquitetura em nuvem, otimização de custos na AWS ou uma proposta de projeto.',
+      en: 'Feel free to reach out if you want to talk about cloud architecture, AWS cost optimization or a project proposal.',
     },
   },
 }
