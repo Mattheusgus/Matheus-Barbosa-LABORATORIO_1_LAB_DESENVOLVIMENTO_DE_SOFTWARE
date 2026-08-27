@@ -59,16 +59,16 @@ export const profile = {
     {
       id: 'projeto-1',
       year: '2025',
-      title: 'Nome do Projeto 1',
+      title: 'AWS Health Abuse Alerting',
       description: {
-        pt: 'Descreva aqui o objetivo do projeto, o problema que ele resolve e os principais resultados alcançados.',
-        en: 'Describe the project goal here, the problem it solves and the main results achieved.',
+        pt: 'Templates CloudFormation para alertar Abuse Events do AWS Health (spam, phishing, DDoS, port scan) em toda a AWS Organization via StackSets, com notificação por e-mail (SNS). Inclui variante standalone (por conta) e variante com hub central (EventBridge cross-account).',
+        en: 'CloudFormation templates to alert on AWS Health Abuse Events (spam, phishing, DDoS, port scans) across an AWS Organization using StackSets, with email notifications (SNS). Includes both a standalone variant (per account) and a central hub variant (cross-account EventBridge).',
       },
       tags: ['AWS', 'Terraform', 'CloudFormation', 'IAM'],
       repo: 'https://github.com/seu-usuario/projeto-1',
       demo: '',
       image: '',
-      preview: 'from-cyan-500/20 via-fuchsia-500/10 to-transparent',
+      preview: 'https://github.com/Rafael-Fonseca1510/Projeto-Health-Abuse-Event.git',
     },
     {
       id: 'projeto-2',
