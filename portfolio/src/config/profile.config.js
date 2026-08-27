@@ -21,25 +21,25 @@ export const profile = {
    * 1) IDENTIDADE
    * ------------------------------------------------------------------------ */
   identity: {
-    name: 'Seu Nome',               // Nome completo (usado no rodapé, alt de imagem)
-    firstName: 'Nome',              // Primeiro nome (saudação)
-    logo: 'seunome.dev',            // Texto do logo no cabeçalho: < seunome.dev />
+    name: 'Cleverson Resende Rosa',               // Nome completo (usado no rodapé, alt de imagem)
+    firstName: 'Cleverson',              // Primeiro nome (saudação)
+    logo: 'cleverson.dev',            // Texto do logo no cabeçalho: < seunome.dev />
     role: {
-      pt: 'Sua Profissão',
-      en: 'Your Role',
+      pt: 'Analista de Sistemas',
+      en: 'System Analyst',
     },
     greeting: {
-      pt: 'OLÁ, EU SOU O SEU NOME',
-      en: 'HELLO, I AM YOUR NAME',
+      pt: 'OLÁ, EU SOU O CLEVSON',
+      en: 'HELLO, I AM CLEVSON',
     },
     bio: {
-      pt: 'Escreva aqui uma apresentação sobre você: sua área de atuação, principais habilidades e o que você faz de melhor.',
-      en: 'Write a short introduction about yourself here: your field, main skills and what you do best.',
+      pt: 'Olá! Sou um Analista de Sistemas apaixonado por tecnologia e desenvolvimento de soluções inovadoras. Tenho experiência em diversas linguagens de programação e frameworks, sempre buscando aprimorar minhas habilidades e contribuir para projetos desafiadores.',
+      en: 'Hello! I am a System Analyst passionate about technology and innovative solution development. I have experience in various programming languages and frameworks, always seeking to improve my skills and contribute to challenging projects.',
     },
     // Texto secundário (aparece menor, abaixo da bio principal)
     bioSecondary: {
-      pt: 'Uma frase complementar sobre seus valores, foco ou objetivos profissionais.',
-      en: 'A complementary sentence about your values, focus or professional goals.',
+      pt: 'C#, .NET, JavaScript, React, Node.js, SQL, Git, Docker, AWS',
+      en: 'C#, .NET, JavaScript, React, Node.js, SQL, Git, Docker, AWS',
     },
   },
 
@@ -66,61 +66,33 @@ export const profile = {
    * ------------------------------------------------------------------------ */
   projects: [
     {
-      id: 'projeto-1',
-      year: '2024',
-      title: 'Nome do Projeto 1',
+      id: 'Infocentre',
+      year: '2014-atual',
+      title: 'Infocentre',
       description: {
-        pt: 'Descreva aqui o objetivo do projeto, o problema que ele resolve e os principais resultados alcançados.',
-        en: 'Describe the project goal here, the problem it solves and the main results achieved.',
+        pt: 'Monólito modular de gestão da Petronas Lubricants International: um ERP que se integra ao SAP, oferecendo uma interface amigável e automações para os principais módulos, como MM e SD. Além de otimizar processos, a solução reduz os custos com licenças do SAP diante do elevado número de usuários, visto que se trata de um sistema global. Seus principais módulos incluem Marketing, Financeiro, Logística e Laboratório.',
+        en: 'Modular monolith management platform developed for Petronas Lubricants International. The system integrates directly with SAP, delivering intuitive UI and automated workflows for core MM and SD operations. Designed for a global environment, it significantly lowers SAP licensing expenses while delivering tailored functionality across Marketing, Finance, Logistics, and Lab Management.',
       },
-      tags: ['React', 'Node.js', 'Tailwind', 'API'],
-      repo: 'https://github.com/seu-usuario/projeto-1',
+      tags: ['BLAZOR/RAZOR', 'DOTNET', 'C#', 'SQL SERVER'],
+      repo: 'https://github.com/cleverson-programmer/infocentre',
       demo: '',
       image: '', // ex.: '/profile/projeto1.png' (deixe vazio p/ usar o gradiente)
       preview: 'from-cyan-500/20 via-fuchsia-500/10 to-transparent',
     },
     {
-      id: 'projeto-2',
-      year: '2023',
-      title: 'Nome do Projeto 2',
+      id: 'myInfocentre',
+      year: '2022',
+      title: 'myInfocentre',
       description: {
-        pt: 'Descreva aqui o objetivo do projeto, o problema que ele resolve e os principais resultados alcançados.',
-        en: 'Describe the project goal here, the problem it solves and the main results achieved.',
+        pt: 'Evolução do ecossistema Infocentre para uma arquitetura distribuída em microsserviços com suporte a alta disponibilidade global. A nova versão consolida a migração da infraestrutura on-premises para serviços AWS (Lambda, Cognito, EC2 e RDS), expande o escopo de integrações nativas com módulos SAP e implementa regras de compliance fiscal em conformidade com as exigências da Receita Federal.',
+        en: 'Infocentre next-generation platform, redesigned using a microservices architecture for global scalability. The initiative involves decommissioning on-premises infrastructure in favor of AWS cloud services (Lambda, Cognito, EC2, RDS), expanding SAP module integrations, and ensuring regulatory compliance with updated federal tax requirements.',
       },
-      tags: ['TypeScript', 'Next.js', 'PostgreSQL'],
-      repo: 'https://github.com/seu-usuario/projeto-2',
+      tags: ['C#', '.NET', 'AWS', 'PostgreSQL'],
+      repo: 'https://github.com/cleverson-programmer/myInfocentre',
       demo: '',
       image: '',
       preview: 'from-fuchsia-500/25 via-purple-500/10 to-transparent',
-    },
-    {
-      id: 'projeto-3',
-      year: '2022',
-      title: 'Nome do Projeto 3',
-      description: {
-        pt: 'Descreva aqui o objetivo do projeto, o problema que ele resolve e os principais resultados alcançados.',
-        en: 'Describe the project goal here, the problem it solves and the main results achieved.',
-      },
-      tags: ['JavaScript', 'Docker', 'MongoDB'],
-      repo: 'https://github.com/seu-usuario/projeto-3',
-      demo: '',
-      image: '',
-      preview: 'from-teal-500/20 via-cyan-500/10 to-transparent',
-    },
-    {
-      id: 'projeto-4',
-      year: '2021',
-      title: 'Nome do Projeto 4',
-      description: {
-        pt: 'Descreva aqui o objetivo do projeto, o problema que ele resolve e os principais resultados alcançados.',
-        en: 'Describe the project goal here, the problem it solves and the main results achieved.',
-      },
-      tags: ['React', 'GraphQL', 'Jest'],
-      repo: 'https://github.com/seu-usuario/projeto-4',
-      demo: '',
-      image: '',
-      preview: 'from-cyan-500/20 via-blue-500/10 to-transparent',
-    },
+    }
   ],
 
   /* ---------------------------------------------------------------------------
@@ -128,38 +100,16 @@ export const profile = {
    * ------------------------------------------------------------------------ */
   experiences: [
     {
-      id: 'exp-1',
+      id: 'Petronas Lubricants International',
       initials: 'E1',
-      role: { pt: 'Seu Cargo', en: 'Your Role' },
-      company: 'Nome da Empresa',
-      period: { pt: 'Mês Ano – Atual', en: 'Month Year – Present' },
+      role: { pt: 'Estagiário', en: 'Intern' },
+      company: 'Petronas Lubricants International',
+      period: { pt: '08-2026', en: '08-2026' },
       description: {
-        pt: 'Descreva suas principais responsabilidades, tecnologias utilizadas e resultados alcançados nesta posição.',
-        en: 'Describe your main responsibilities, technologies used and results achieved in this position.',
+        pt: 'Atuação focada em análise de sistemas, sustentação e evolução das plataformas Infocentre e myInfocentre. Responsável pelo desenvolvimento de novas features, automação através de aplicações Console e migração da arquitetura legada para o myInfocentre. Atuação direta na resolução de chamados de suporte, criação e otimização de queries SQL, conciliação e análise comparativa de dados entre o SAP e o banco de dados corporativo, garantindo a integridade e alta disponibilidade das informações.',
+        en: 'Systems analysis and software engineering focused on the maintenance and evolution of the Infocentre and myInfocentre platforms. Responsible for developing new features, creating automated Console applications, and executing the platform migration to myInfocentre. Proven experience in resolving internal system tickets, optimizing SQL queries, and performing data reconciliation between SAP and internal databases to ensure data consistency and system efficiency.',
       },
-    },
-    {
-      id: 'exp-2',
-      initials: 'E2',
-      role: { pt: 'Seu Cargo', en: 'Your Role' },
-      company: 'Nome da Empresa',
-      period: { pt: 'Mês Ano – Mês Ano', en: 'Month Year – Month Year' },
-      description: {
-        pt: 'Descreva suas principais responsabilidades, tecnologias utilizadas e resultados alcançados nesta posição.',
-        en: 'Describe your main responsibilities, technologies used and results achieved in this position.',
-      },
-    },
-    {
-      id: 'exp-3',
-      initials: 'E3',
-      role: { pt: 'Seu Cargo', en: 'Your Role' },
-      company: 'Nome da Empresa',
-      period: { pt: 'Mês Ano – Mês Ano', en: 'Month Year – Month Year' },
-      description: {
-        pt: 'Descreva suas principais responsabilidades, tecnologias utilizadas e resultados alcançados nesta posição.',
-        en: 'Describe your main responsibilities, technologies used and results achieved in this position.',
-      },
-    },
+    }
   ],
 
   /* ---------------------------------------------------------------------------
@@ -167,10 +117,10 @@ export const profile = {
    *    icon: 'email' | 'whatsapp' | 'linkedin' | 'github' | 'phone' | 'site'
    * ------------------------------------------------------------------------ */
   contact: [
-    { id: 'email',    label: 'E-mail',   icon: 'email',    value: 'seu-email@example.com',   href: 'mailto:seu-email@example.com' },
-    { id: 'whatsapp', label: 'WhatsApp', icon: 'whatsapp', value: '+55 (00) 00000-0000',     href: 'https://wa.me/5500000000000' },
-    { id: 'linkedin', label: 'LinkedIn', icon: 'linkedin', value: 'linkedin.com/in/seu-perfil', href: 'https://linkedin.com/in/seu-perfil' },
-    { id: 'github',   label: 'GitHub',   icon: 'github',   value: 'github.com/seu-usuario',   href: 'https://github.com/seu-usuario' },
+    { id: 'email',    label: 'E-mail',   icon: 'email',    value: 'cleverson.github@gmail.com',   href: 'mailto:cleverson.github@gmail.com' },
+    { id: 'whatsapp', label: 'WhatsApp', icon: 'whatsapp', value: '+55 (33) 9937-3400',     href: 'https://wa.me/553399373400' },
+    { id: 'linkedin', label: 'LinkedIn', icon: 'linkedin', value: 'linkedin.com/in/seu-perfil', href: 'https://linkedin.com/in/cleverson-resende' },
+    { id: 'github',   label: 'GitHub',   icon: 'github',   value: 'github.com/cleverson-programmer',   href: 'https://github.com/cleverson-programmer' },
   ],
 
   /* ---------------------------------------------------------------------------
@@ -178,9 +128,8 @@ export const profile = {
    *    icon: 'github' | 'linkedin' | 'twitter' | 'instagram' | 'site'
    * ------------------------------------------------------------------------ */
   socials: [
-    { icon: 'github',   href: 'https://github.com/seu-usuario',      label: 'GitHub' },
-    { icon: 'linkedin', href: 'https://linkedin.com/in/seu-perfil',  label: 'LinkedIn' },
-    { icon: 'twitter',  href: 'https://twitter.com/seu-usuario',     label: 'Twitter' },
+    { icon: 'github',   href: 'https://github.com/cleverson-programmer',      label: 'GitHub' },
+    { icon: 'linkedin', href: 'https://linkedin.com/in/cleverson-resende',  label: 'LinkedIn' }
   ],
 
   /* ---------------------------------------------------------------------------
