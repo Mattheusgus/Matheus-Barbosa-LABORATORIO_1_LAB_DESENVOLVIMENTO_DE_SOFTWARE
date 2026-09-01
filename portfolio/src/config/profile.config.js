@@ -43,7 +43,7 @@ export const profile = {
    * ------------------------------------------------------------------------ */
   hero: {
     heroMedia: 'photo', // 'photo' | 'code'
-    photo: '/profile/rafael.jpg', // TODO: salve sua foto em public/profile/ com este nome
+    photo: '/profile/rafael.jpeg', // TODO: salve sua foto em public/profile/ com este nome
     favicon: null,
     cta: {
       primary: { pt: 'Ver Projetos', en: 'View Projects' },
