@@ -31,11 +31,11 @@ export const sectionTitles = {
       en: 'Would you like to build something together?',
     },
     form: {
-      name: { pt: '01. NOME COMPLETO', en: '01. FULL NAME' },
-      namePh: { pt: 'Ex: Maria Silva', en: 'Ex: Mary Smith' },
-      email: { pt: '02. ENDEREÇO DE E-MAIL', en: '02. EMAIL ADDRESS' },
+      name: { pt: '01. Seu Nome', en: '01. Your Name' },
+      namePh: { pt: 'EX: Mary', en: 'EX: Mary' },
+      email: { pt: '01. Seu endereço de email', en: '02. Your email address' },
       emailPh: { pt: 'Ex: maria@provedor.com', en: 'Ex: mary@provider.com' },
-      message: { pt: '03. MENSAGEM', en: '03. MESSAGE' },
+      message: { pt: '03. Olá como posso ajudar?', en: '03. Hi, how can I help you?' },
       messagePh: {
         pt: 'Escreva sua ideia ou proposta de projeto...',
         en: 'Write your idea or project proposal...',

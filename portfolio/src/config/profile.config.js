@@ -50,7 +50,7 @@ export const profile = {
    * ------------------------------------------------------------------------ */
   hero: {
     heroMedia: 'photo', // 'photo' | 'code'
-    photo: '/profile/avatar-placeholder.svg', // troque pela sua foto em public/profile/
+    photo: '/profile/EU_Ghibli.png', // troque pela sua foto em public/profile/
     // Favicon do navegador (opcional). Deixe null para usar o padrão < / >
     favicon: null,
     cta: {
@@ -119,7 +119,7 @@ export const profile = {
   contact: [
     { id: 'email',    label: 'E-mail',   icon: 'email',    value: 'cleverson.github@gmail.com',   href: 'mailto:cleverson.github@gmail.com' },
     { id: 'whatsapp', label: 'WhatsApp', icon: 'whatsapp', value: '+55 (33) 9937-3400',     href: 'https://wa.me/553399373400' },
-    { id: 'linkedin', label: 'LinkedIn', icon: 'linkedin', value: 'linkedin.com/in/seu-perfil', href: 'https://linkedin.com/in/cleverson-resende' },
+    { id: 'linkedin', label: 'LinkedIn', icon: 'linkedin', value: 'linkedin.com/in/cleverson-resende', href: 'https://linkedin.com/in/cleverson-resende' },
     { id: 'github',   label: 'GitHub',   icon: 'github',   value: 'github.com/cleverson-programmer',   href: 'https://github.com/cleverson-programmer' },
   ],
 
